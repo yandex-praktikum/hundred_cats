@@ -6,7 +6,7 @@ import requests
 
 BASE_DIR = Path(__file__).parent
 URL = 'https://api.thecatapi.com/v1/images/search'
-CATS_DIR = CATS_DIR = BASE_DIR / 'cats'
+CATS_DIR = BASE_DIR / 'cats'
 
 
 def get_new_image_url():
